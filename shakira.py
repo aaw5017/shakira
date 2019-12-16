@@ -54,5 +54,5 @@ key_listener = keyboard.Listener(
 )
 key_listener.start()
 
-while not ticker.wait(2):
+while not ticker.wait(45):
     shake()
