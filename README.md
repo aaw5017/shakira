@@ -8,3 +8,9 @@
 
 ## Install Pip Dependencies
 `pip install -r requirements.txt`
+
+---
+
+#### Acknowledgements
+- Shakira shaking gif courtesy of giphy.com
+- Original link https://media3.giphy.com/media/S4NlVXqTgGZ56/giphy.gif

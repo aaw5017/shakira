@@ -1,4 +1,3 @@
-#!/usr/bin/env python2.7
 from pynput import keyboard # pip install pynput
 import pyautogui # pip install pyautogui
 import time
