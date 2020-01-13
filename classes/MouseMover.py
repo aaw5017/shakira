@@ -19,7 +19,7 @@ class MouseMover(threading.Thread):
         self._is_active = False
 
     def run(self):
-        while not self._stop_event.isSet():
+        while not self._stop_event.wait(self._sleep_interval):
             if not self._is_active or self._is_moving:
                 continue
 
@@ -32,8 +32,6 @@ class MouseMover(threading.Thread):
             time.sleep(self._move_interval)
             pyautogui.moveRel(10, None)
             self._is_moving = False
-
-            time.sleep(self._sleep_interval)
 
     def join(self, timeout=None):
         self._stop_event.set()
