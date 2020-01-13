@@ -1,7 +1,7 @@
 ## VirtualEnv Setup
 
 1. Install VirtualEnv
-2. Inside the root directory, `virtualenv -p <path_to_python>` .venv
+2. Inside the root directory, `virtualenv -p <path_to_python> .venv`
 
 ## Activate the Virtual Environment
 `activate-venv.bat`
@@ -10,7 +10,7 @@
 `pip install -r requirements.txt`
 
 ## Start the App
-This app was built using Python 3.8.1. To start the application, run the following:
+This app was coded using Python 3.8.1. To start the application, run the following:
 
 `python shakira.py`
 
